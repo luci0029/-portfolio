@@ -1,3 +1,76 @@
-body{
-    background-color:rgb(255, 255, 255);
-}
+
+
+/*****SLIDESHOW*****/
+#slideshow { 
+    width: 100%;
+  }
+  
+  #slideshow > div { 
+    position: absolute; 
+    width: 100%;
+  }
+  
+  /*********IMAGES ON SLIDESHOW******/
+  #img1{
+    background-image: url('../images/background/mountain.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: auto;
+  }
+  
+  #img2{
+    background-image: url('../images/background/deer.JPG');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: auto;
+  }
+  
+  #img3{
+    background-image: url('../images/background/diegoinbeach.JPG');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: auto;
+  }
+
+  #img4{
+    background-image: url('../images/background/me.JPG');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: auto;
+  }
+  
+  /**********HOMEPAGE TXT********/
+  .hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+
+  /******HOMEPAGE BUTTONS******/
+  ul{
+    list-style: none;
+    text-decoration: none;
+    
+  }
+  li{
+    display: inline-block;
+    list-style: none;
+    text-decoration: none;
+    list-style-type: none;
+    padding: 7px;
+  }
+  a {
+    text-transform: uppercase;
+  }
+
