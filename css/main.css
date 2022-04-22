@@ -11,57 +11,46 @@
   }
   
   /*********IMAGES ON SLIDESHOW******/
+  .imgx{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: auto;
+    filter: brightness(70%);
+  }
   #img1{
     background-image: url('../images/background/mountain.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100%;
-    width: auto;
   }
-  
   #img2{
-    background-image: url('../images/background/loookiingup.JPG');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100%;
-    width: auto;
+    background-image: url('../images/background/flowers.jpg');   
   }
   
   #img3{
-    background-image: url('../images/background/diegoinbeach.JPG');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100%;
-    width: auto;
+    background-image: url('../images/background/diegoinbeach.JPG');  
   }
 
   #img4{
     background-image: url('../images/background/me.JPG');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100%;
-    width: auto;
   }
   
   /**********HOMEPAGE TXT********/
   .hero-text {
     text-align: center;
+    font-weight: bold;
+    text-shadow: 1px 2px 2px rgb(199, 199, 199);
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: white;
+    color: #ffffff;
   }
 
   /******HOMEPAGE BUTTONS******/
   ul{
     list-style: none;
     text-decoration: none;
-    
+    text-shadow: 2px 4px 3px rgb(199, 199, 199);
   }
   li{
     display: inline-block;
@@ -69,8 +58,15 @@
     text-decoration: none;
     list-style-type: none;
     padding: 7px;
+    text-shadow: 2px 4px 3px rgb(199, 199, 199);
   }
   a {
     text-transform: uppercase;
   }
+
+  .fa-brands{
+    padding: 5px;
+  }
+
+  
 
